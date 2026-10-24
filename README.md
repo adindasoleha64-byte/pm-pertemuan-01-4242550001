@@ -41,3 +41,15 @@ Tools • Dart 3.13.5 • DevTools 2.60.0
 
 ## Pernyataan Penggunaan AI
 Saya menggunakan Claude sebagai alat bantu untuk memahami struktur kode Flutter (StatelessWidget, StatefulWidget, dan widget dasar), contoh kode awal, serta troubleshooting Git dan VS Code. Kode telah saya jalankan, uji, dan sesuaikan sendiri.
+
+## Essai Perbandingan Native, Hybrid dan Cross-Platform
+Aplikasi mobile bisa dikembangkan dengan tiga pendekatan utama, yaitu Native, Hybrid, dan Cross-platform. Pemilihannya bergantung pada kebutuhan, anggaran, dan tim pengembang.
+
+Native adalah pendekatan yang dibuat khusus untuk satu platform dengan bahasa resminya, misalnya Kotlin untuk Android dan Swift untuk iOS. Kelebihannya, performa paling tinggi dan fitur perangkat dapat dipakai penuh. Kekurangannya, jika ingin tersedia di Android dan iOS, tim harus memelihara dua basis kode sehingga biaya dan waktu lebih besar. Pendekatan ini cocok untuk aplikasi berskala besar seperti media sosial (misalnya Instagram) yang bergantung pada kamera dan video serta membutuhkan performa mulus.
+
+Hybrid pada dasarnya adalah tampilan web yang dibungkus menjadi aplikasi. Kelebihannya, pengembang web mudah beradaptasi karena memakai bahasa dan kerangka yang sudah dikenal. Kekurangannya, aplikasi terasa seperti membuka situs web, bukan aplikasi mobile. Pendekatan ini cocok untuk aplikasi informasi atau katalog sederhana yang sudah punya versi web, karena cepat dan murah dibuat.
+
+Cross-platform menggunakan satu basis kode untuk Android dan iOS dengan hasil yang mendekati native. Ada framework yang memetakan kode ke komponen native (React Native) dan ada yang menggambar tampilannya sendiri (Flutter). Kelebihannya, biaya dan waktu lebih hemat dibanding Native. Kekurangannya, pengembang perlu mempelajari bahasa dan kerangka baru, seperti Dart pada Flutter. Pendekatan ini cocok untuk portal kampus atau e-learning yang dipakai mahasiswa di dua platform dengan anggaran terbatas.
+
+Jadi tidak ada pendekatan yang selalu terbaik, pilihannya disesuaikan dengan kebutuhan proyek yang
+akan dikerjakan.
